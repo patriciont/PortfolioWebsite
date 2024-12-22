@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(to right, #8e44ad, #ff758c);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+      header img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid white;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+      }
+      nav {
+        margin-bottom: 20px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        width: 100%;
+        max-width: 800px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        color: #ffcccb;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul li {
+        margin: 10px 0;
+      }
+      ul li a {
+        color: #ffcccb;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      ul li a:hover {
+        text-decoration: underline;
+      }
+      .contact-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #ff758c;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .contact-button:hover {
+        background: #ff5673;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Patricia Ciont</h1>
+        <p>Data Engineer | Web&Data Enthusiast | Univeristy Student</p>
+      </div>
+    </header>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <ul>
+        <li>Data Support Engineer at Betfair(February 2024 - Present)</li>
+        <li>Web Support Engineer at Webwave (March 2022 - February 2024)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Courses & Projects</h2>
+      <ul>
+        <li>
+          <a
+            href="https://education.oracle.com/oracle-database-sql-certified-associate/trackp_457"
+            >Oracle Course SQL</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.oracle.com/database/technologies/appdev/plsql.html"
+            >Oracle Course PL/SQL</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.databricks.com/learn/certification/data-engineer-associate"
+            >Databricks Certificate (on going)</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/patriciont/AgriAppDemo.git"
+            >AgriApp Project (on going)
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/patriciont/WomenTechPower.git"
+            >WomenTechPower
+          </a>
+        </li>
+      </ul>
+      <a href="/contact" class="contact-button">Contact Me</a>
+    </section>
+  </body>
+</html>
